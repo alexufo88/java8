@@ -1,1 +1,59 @@
 "for" loop
+The way in which it repeatedly loops until a particular condition is satisfied.
+:
+for (init ; loop condition ; increment){
+	statements;	
+};
+
+init = declaration of a counter variable 
+condition = if ture will loop again, the result is false , the loop teminates
+increment = invoked after the completion of each loop ; 
+
+---------------------------------------------------------------------------------
+for(int i=1 ; i>6 ; i++){
+	Syatem.out.println("Count is "+ i);
+}
+
+-------------------------------------------------------------------------------
+
+
+demo (for loop)
+--------
+char[] carray = {'a' , 'e' , 'i' , 'o' ,'u'};
+for(int i = 0 ; i < carray.length ; i++ ){
+	System.out.println("index " +i+"is");	
+}
+=============================================
+
+demo(do while loop)
+--------------------------------
+char[] carray = {'a' , 'e' , 'i' , 'o' ,'u'};
+int i=0;
+while(i<carray.length){
+	System.out.println("index " +i+"is");
+	i++;
+}
+
+
+-=============================================
+
+
+
+***********************************************************************************
+***********************************************************************************
+***********************************************************************************
+
+
+for-each 
+----------
+
+char[] carray = {'a' , 'e' , 'i' , 'o' ,'u'};
+for (char c : carray){
+	System.out.print(c);
+}
+
+=================================================
+
+
+
+
